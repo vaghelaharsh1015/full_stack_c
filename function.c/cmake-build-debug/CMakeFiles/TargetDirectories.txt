@@ -1,0 +1,3 @@
+D:/harsh vaghela/function.c/cmake-build-debug/CMakeFiles/function.dir
+D:/harsh vaghela/function.c/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/harsh vaghela/function.c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
