@@ -4,7 +4,7 @@ int main (){
     while (i<=10)
     {
         printf("harsh\n");
-        i++;
+        i++;       
     }
     return 0;
     
