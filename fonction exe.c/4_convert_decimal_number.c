@@ -1,5 +1,5 @@
 #include<stdio.h>
-void convertdesimal(int);
+void convertbin(int);
 
 int main()
 {
@@ -7,11 +7,11 @@ int main()
     printf("enter a value :");
     scanf("%d",&val);
 
-     convertdesimal(val);
+     convertbin(val);
 
     return  0;
 }
-void convertdesimal(int val)
+void convertbin(int val)
 {
     int  rem = 0, bin = 0, muli = 1;
     while (val > 0)
