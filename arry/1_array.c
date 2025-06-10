@@ -13,5 +13,21 @@ int main()
         printf("%d\n",arry[j]);
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     return 0;
 }
