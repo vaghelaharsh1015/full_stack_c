@@ -5,16 +5,15 @@
 int main()
 {
     int i = 0, num = 0;
-    int arr[] = {10,25,36,42,55};
+    int arr[] = {10, 25, 36, 42, 55};
 
     printf("Enter a number which is you are finding : ");
     scanf("%d", &num);
 
-    for(i = 0; i < 5; i++)
+    for (i = 0; i < 5; i++)
     {
-        if(arr[i] == i)
-            printf("%d ", arr[i]);
-
+        if (arr[i] == num)
+            printf("%d ", i);
     }
 
     return 0;

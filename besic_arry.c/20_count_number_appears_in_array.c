@@ -4,11 +4,16 @@
 
 int main()
 {
-    int arr[] = {12,36,45,69,78,99};
+    int arr[6] = {12,45,69,78,99},count=0;
 
-    for(int i = 0; i <= 5; i++)
+    for(int i = 0; i <7; i++)
     {
-        printf("%d ",arr[i]);
+        if (arr[i]==arr[i])
+        {
+            count++;
+        }
+        
+        printf(" %d ",count);
     }
     return 0;
 }

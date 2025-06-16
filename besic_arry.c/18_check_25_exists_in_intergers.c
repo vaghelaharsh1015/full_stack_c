@@ -1,14 +1,29 @@
 #include <stdio.h>
 
-// Check if the number 25 exists in an array of 8 integers.
+// Find the position (index) of a given element in an array.
 
 int main()
 {
-    int arr[] = {8,11,32,45,69,84,59,48,102};
+    int i = 0, num = 0;
+    int arr[] = {10, 15, 36, 42, 55};
+    int found = 0;
 
-    for (int i = 0; i < 8; i++)
+    printf("Enter a number which you are finding: ");
+    scanf("%d", &num);
+
+    for(i = 0; i < 5; i++)
     {
-        printf("%d ",arr[i]);
+        if(arr[i] == num)
+        {
+            printf("Number %d found at index %d\n", num, i);
+            found = 1;
+            break; // exit loop if found
+        }
+    }
+
+    if(!found)
+    {
+        printf("Number %d not found in the array.\n", num);
     }
 
     return 0;

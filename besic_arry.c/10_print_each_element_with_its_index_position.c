@@ -9,7 +9,7 @@ int main()
     int arr[7] = {10, 15, 30, 39, 45, 89, 95};
 
     for (i = 0; i < 7; i++)
-        printf("Index number %d) : %d\n", i + 1, arr[i]);
+        printf("Index number %d) : %d\n", i, arr[i]);
 
     return 0;
 }
