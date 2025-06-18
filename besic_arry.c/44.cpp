@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-    int arr[]={10,10,10},cnt;
+    int arr[]={10,-10,10},cnt;
     bool flag=true;
     
     for (int  i = 0; i<3; i++)
     {
-        if (arr[0]!=arr[i])
+        if (arr[i]<0)
         {
             flag=false;
             break;
