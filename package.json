@@ -1,0 +1,24 @@
+{
+  "name": "full_stack_c",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vaghelaharsh1015/full_stack_c#readme",
+  "bugs": {
+    "url": "https://github.com/vaghelaharsh1015/full_stack_c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaghelaharsh1015/full_stack_c.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {}
+}
