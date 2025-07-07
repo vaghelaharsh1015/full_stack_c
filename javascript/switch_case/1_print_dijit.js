@@ -3,7 +3,7 @@
 const ps = require("prompt-sync");
 const prompt = ps();
 
-let digit = parseInt(prompt("Enter a digit (0-9):"));
+let digit = parseInt(prompt("Enter a digit (0-10):"));
 
 switch (digit) {
     case 0:
@@ -35,6 +35,8 @@ switch (digit) {
         break;
     case 9:
         console.log("Nine");
+    case 10:
+        console.log("ten");
         break;
     default:
         console.log("Invalid input! Please enter a digit between 0 and 9.");
