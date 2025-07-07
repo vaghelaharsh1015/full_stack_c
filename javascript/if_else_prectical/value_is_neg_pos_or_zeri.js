@@ -3,7 +3,7 @@
 const ps = require("prompt-sync");
 const prompt=ps();
 
-let value=promat("enter a valiue:");
+let value=parseFloat(prompt("enter a value:"));
 
 if (value > 0)
 {
@@ -13,7 +13,11 @@ else if (value < 0)
 {
     console.log("value is negative");
 }
+else if (value === 0)
+{
+    console.log("value is zero");
+}
 else
 {
-    console.log("valueis zero");
+    console.log("invild value");
 }
