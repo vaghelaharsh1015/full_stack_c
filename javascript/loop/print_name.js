@@ -3,8 +3,9 @@
 const ps=require("prompt-sync");
 const prompt=ps();
 
-let i = 0, val = 0, ;
+let name=prompt("enter your name:");
 
-for (i=1;i<=10;i++){
-    
+for (let i=1;i<=10;i++)
+{
+    console.log(name);
 }
